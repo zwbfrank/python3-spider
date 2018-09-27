@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import requests
+import re
 # import os
 import json
 from lxml import etree
 from urllib.parse import urljoin
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
